@@ -1,6 +1,6 @@
-# Bulgaria: A Hidden Gem of Europe
+# Bulgaria: A Hidden Gem of Europe 🇧🇬
 
-## Overview
+## Overview 
 This project is dedicated to showcasing Bulgaria, a country often overlooked but rich in history, culture, and beauty. Created for a Spanish class, the content is entirely in Spanish, serving both an academic purpose and a broader educational goal: to introduce more people to the wonders of this magnificent country.
 
 ## Purpose
