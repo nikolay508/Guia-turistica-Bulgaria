@@ -9,6 +9,10 @@ This project was developed as part of a Spanish language class, but it’s desig
 	•	Educate others about Bulgaria’s unique identity<br/>
 	•	Encourage cultural appreciation and curiosity
 
+## Here you can see the home page (originally in spanish & translated in english by the brower):
+<img width="1469" alt="Screenshot 2025-04-05 at 18 25 34" src="https://github.com/user-attachments/assets/23f19f99-5fb6-465c-a8d2-c417e7660c58" /><br>
+<img width="1470" alt="Screenshot 2025-04-05 at 18 25 47" src="https://github.com/user-attachments/assets/67622e27-b735-4cd0-a3c7-1d985407832c" />
+
 ## 👨‍💻 Made from
   • Nikolay (dev)<br/>
   • Bozhidar<br/>
