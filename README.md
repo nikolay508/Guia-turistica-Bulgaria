@@ -5,14 +5,14 @@ This project is dedicated to showcasing Bulgaria, a country often overlooked but
 
 ## Purpose
 This project was developed as part of a Spanish language class, but it’s designed to go beyond a school assignment. It’s meant to:
-	•	Improve our Spanish writing and research skills
-	•	Educate others about Bulgaria’s unique identity
+	•	Improve our Spanish writing and research skills<br/>
+	•	Educate others about Bulgaria’s unique identity<br/>
 	•	Encourage cultural appreciation and curiosity
 
 ## Made from
-  • Nikolay (dev)
-  • Bozhidar
-  • Niya
+  • Nikolay (dev)<br/>
+  • Bozhidar<br/>
+  • Niya<br/>
   • Nina
 
 ## Final Note
