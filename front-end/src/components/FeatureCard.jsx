@@ -1,8 +1,7 @@
-import { PopUp } from "./pop-up.jsx";
+
 export const FeatureCard = ({ icon, title, description }) => {
   return (
-    <div className="bg-white rounded-lg p-8 shadow-lg text-center"
-    onClick={() => (PopUp())}>
+    <div className="bg-white rounded-lg p-8 shadow-lg text-center">
       <div className="flex justify-center mb-4">
         {icon}
       </div>
