@@ -1,7 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 
-export const FeatureCard = ({ icon, title, description }) => {
+export const FeatureCard = ({ icon, title, description, link }) => {
+  const navigate = useNavigate();
+
   return (
-    <div className="bg-white rounded-lg p-8 shadow-lg text-center">
+    <div 
+      className="bg-white rounded-lg p-8 shadow-lg text-center cursor-pointer hover:shadow-xl transition-shadow"
+      onClick={() => navigate(link)}
+    >
       <div className="flex justify-center mb-4">
         {icon}
       </div>

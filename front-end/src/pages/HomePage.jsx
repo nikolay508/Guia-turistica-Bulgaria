@@ -27,6 +27,7 @@ const Home = () => {
               icon={card.icon} 
               title={card.title} 
               description={card.description}
+              link={card.link}
             />
           ))}
         </div>

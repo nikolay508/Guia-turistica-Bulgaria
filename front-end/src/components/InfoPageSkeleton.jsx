@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-const Skeleton = ({ title, sections }) => {
+export const InfoPageSkeleton = ({ title, sections }) => {
   // Animation variants for staggered animations
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -116,7 +116,7 @@ const Skeleton = ({ title, sections }) => {
   );
 };
 
-Skeleton.propTypes = {
+InfoPageSkeleton.propTypes = {
   title: PropTypes.string.isRequired,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
@@ -125,5 +125,3 @@ Skeleton.propTypes = {
     })
   ).isRequired
 };
-
-export default Skeleton;
