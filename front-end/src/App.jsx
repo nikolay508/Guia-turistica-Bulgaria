@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Home from "./pages/HomePage";
-import BasicInfoPage from "./pages/BasicInfoPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import YourPage from "./pages/YourPage";
 
