@@ -5,7 +5,7 @@ export const FeatureCard = ({ icon, title, description, link }) => {
 
   return (
     <div 
-      className="bg-white rounded-lg p-8 shadow-lg text-center cursor-pointer hover:shadow-xl transition-shadow"
+      className="bg-white rounded-lg p-8 shadow-lg text-center cursor-pointer hover:shadow-xl transition-shadow h-64"
       onClick={() => navigate(link)}
     >
       <div className="flex justify-center mb-4">

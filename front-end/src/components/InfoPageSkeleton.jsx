@@ -1,8 +1,13 @@
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export const InfoPageSkeleton = ({ title, sections }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Animation variants for staggered animations
   const containerVariants = {
     hidden: { opacity: 0 },
