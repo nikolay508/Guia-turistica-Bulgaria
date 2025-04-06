@@ -2,7 +2,7 @@ import { InfoPageSkeleton } from "../../components/InfoPageSkeleton";
 
 export const AdminInfo = () => {
   const pageData = {
-    title: "Header",
+    title: "Información administrativa",
     sections: [
       {
         content: "Lorem50",

@@ -2,7 +2,7 @@ import { InfoPageSkeleton } from "../../components/InfoPageSkeleton";
 
 export const HistoryPage = () => {
   const pageData = {
-    title: "Header",
+    title: "Historia y cultura",
     sections: [
       {
         content: "Lorem50",

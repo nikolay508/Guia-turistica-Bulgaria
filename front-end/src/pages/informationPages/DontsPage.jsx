@@ -2,7 +2,7 @@ import { InfoPageSkeleton } from "../../components/InfoPageSkeleton";
 
 export const DontsPage = () => {
   const pageData = {
-    title: "Header",
+    title: "Cosas que no hacer",
     sections: [
       {
         content: "Lorem50",

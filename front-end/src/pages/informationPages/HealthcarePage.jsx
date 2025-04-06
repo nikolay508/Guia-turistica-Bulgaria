@@ -2,7 +2,7 @@ import { InfoPageSkeleton } from "../../components/InfoPageSkeleton";
 
 export const HealthcarePage = () => {
   const pageData = {
-    title: "Header",
+    title: "Sanidad y seguridad",
     sections: [
       {
         content: "Lorem50",

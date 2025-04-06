@@ -2,7 +2,7 @@ import { InfoPageSkeleton } from "../../components/InfoPageSkeleton";
 
 export const ArchitecturePage = () => {
   const pageData = {
-    title: "Header",
+    title: "Arquitectura y monumentos",
     sections: [
       {
         content: "Lorem50",

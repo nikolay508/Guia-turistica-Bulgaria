@@ -2,7 +2,7 @@ import { InfoPageSkeleton } from "../../components/InfoPageSkeleton";
 
 export const EventsPage = () => {
   const pageData = {
-    title: "Header",
+    title: "Eventos y fiestas",
     sections: [
       {
         content: "Lorem50",

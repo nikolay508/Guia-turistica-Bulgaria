@@ -2,7 +2,7 @@ import { InfoPageSkeleton } from "../../components/InfoPageSkeleton";
 
 export const FoodPage = () => {
   const pageData = {
-    title: "Header",
+    title: "Gastronomía",
     sections: [
       {
         content: "Lorem50",
