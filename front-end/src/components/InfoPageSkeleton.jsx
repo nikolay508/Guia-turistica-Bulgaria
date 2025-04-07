@@ -34,22 +34,23 @@ export const InfoPageSkeleton = ({ title, sections }) => {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-blue-50">
       {/* Navigation Header - increased height with py-8 */}
       <div className="w-full bg-white/80 backdrop-blur-sm shadow-sm">
-        <div className="max-w-6xl mx-auto px-8">
-          <div className="flex items-center justify-between py-9">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between py-4 sm:py-6 md:py-8">
             <motion.div 
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
+              className="w-[100px]"
             >
               <Link 
                 to="/"
-                className="group inline-flex items-center px-4 py-2 text-green-800 
-                  hover:text-green-900 font-medium text-lg transition-all duration-300 
+                className="group inline-flex items-center px-3 sm:px-4 py-2 text-green-800 
+                  hover:text-green-900 font-medium text-base sm:text-lg transition-all duration-300 
                   border-2 border-green-800 rounded-lg hover:bg-green-50"
               >
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
-                  className="h-5 w-5 mr-2 transform group-hover:-translate-x-1 transition-transform duration-300" 
+                  className="h-4 w-4 sm:h-5 sm:w-5 mr-2 transform group-hover:-translate-x-1 transition-transform duration-300" 
                   viewBox="0 0 20 20" 
                   fill="currentColor"
                 >
@@ -66,7 +67,7 @@ export const InfoPageSkeleton = ({ title, sections }) => {
             <motion.h1 
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-4xl font-bold text-green-800"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-800 text-center flex-1"
             >
               {title}
             </motion.h1>
