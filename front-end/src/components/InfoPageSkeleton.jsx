@@ -97,7 +97,7 @@ export const InfoPageSkeleton = ({ title, sections }) => {
               {/* Content Box - increased width */}
               <div className="flex-[2] bg-white p-10 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 mx-4">
                 <div className="prose prose-lg max-w-none">
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed text-lg">
                     {section.content}
                   </p>
                 </div>
