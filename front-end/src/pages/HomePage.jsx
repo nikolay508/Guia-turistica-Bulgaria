@@ -24,7 +24,7 @@ const Home = () => {
             initial={{ rotate: 345, scale: 0.8 }}
             animate={{ rotate: 345, scale: 1 }}
             transition={{ duration: 0.35 }}
-            src="./bg.png" 
+            src="./images/bg.png" 
             alt="Map of Bulgaria" 
             className="absolute left-272 top-5" 
             style={{ maxWidth: '150px' }} 
@@ -33,7 +33,7 @@ const Home = () => {
             initial={{ rotate: 30, scale: 0.8 }}
             animate={{ rotate: 30, scale: 1 }}
             transition={{ duration: 0.35 }}
-            src="./bg-slogan.png" 
+            src="./images/bg-slogan.png" 
             alt="Map of Bulgaria" 
             className="absolute right-272 top-5" 
             style={{ maxWidth: '140px' }} 
