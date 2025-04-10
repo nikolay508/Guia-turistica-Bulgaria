@@ -28,7 +28,7 @@ Installation and start the server side:
 
 ✔️ If everything is normal you will see the following messages:
 
-	Local:   http://localhost:5173/
+Local:   http://localhost:5173/
 
 ## 👨‍💻 Made from
   • Nikolay (dev)<br/>
