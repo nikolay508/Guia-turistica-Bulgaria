@@ -9,6 +9,8 @@ import { EventsPage } from "./pages/informationPages/EventsPage";
 import { FoodPage } from "./pages/informationPages/FoodPage";
 import { HealthcarePage } from "./pages/informationPages/HealthcarePage";
 import { HistoryPage } from "./pages/informationPages/HistoryPage";
+import { ResourcesPage } from "./pages/informationPages/ResourcesPage";
+
 function App() {
   return (
     <Routes>
@@ -21,6 +23,7 @@ function App() {
       <Route path="/food" element={<FoodPage />} />
       <Route path="/healthcare" element={<HealthcarePage />} />
       <Route path="/history" element={<HistoryPage />} />
+      <Route path="/resources" element={<ResourcesPage />} />
     </Routes>
   );
 }

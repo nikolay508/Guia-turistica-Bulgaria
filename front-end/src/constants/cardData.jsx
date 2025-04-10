@@ -6,6 +6,7 @@ import { MdRestaurant } from 'react-icons/md';
 import { MdOutlineDoNotTouch } from "react-icons/md";
 import { BiParty } from "react-icons/bi";
 import { FaRegCommentAlt } from "react-icons/fa";
+import { MdOutlineLibraryBooks } from "react-icons/md";
 
 export const cardData = [
   {
@@ -55,5 +56,11 @@ export const cardData = [
     title: "Consejos útiles",
     description: "Recomendaciones prácticas para sacar el máximo provecho a tu visita.",
     link: "/advices"
+  },
+  {
+    icon: <MdOutlineLibraryBooks className="w-12 h-12 text-green-700" />,
+    title: "Recursos y referencias",
+    description: "Fuentes y referencias utilizadas en la creación de esta guía turística.",
+    link: "/resources"
   }
 ];
