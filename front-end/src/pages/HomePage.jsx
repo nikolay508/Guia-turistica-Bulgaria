@@ -26,7 +26,7 @@ const Home = () => {
             transition={{ duration: 0.35 }}
             src="./images/bg.png" 
             alt="Map of Bulgaria" 
-            className="absolute left-272 top-5" 
+            className="absolute left-272 top-5 hidden md:block" 
             style={{ maxWidth: '150px' }} 
           />
           <motion.img 
@@ -35,7 +35,7 @@ const Home = () => {
             transition={{ duration: 0.35 }}
             src="./images/bg-slogan.png" 
             alt="Map of Bulgaria" 
-            className="absolute right-272 top-5" 
+            className="absolute right-272 top-5 hidden md:block" 
             style={{ maxWidth: '140px' }} 
           />
         </motion.div>
