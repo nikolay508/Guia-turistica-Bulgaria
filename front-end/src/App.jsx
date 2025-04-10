@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Home from "./pages/HomePage";
 import { Routes, Route } from "react-router-dom";
 import { AdminInfo } from "./pages/informationPages/AdminInfoPage";
